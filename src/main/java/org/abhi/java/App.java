@@ -16,8 +16,10 @@ public class App
         System.out.println("Testing : " + System.getProperty("user.dir"));
         System.err.println("Print error");
         
-       // FileReader reader=new FileReader(System.getProperty("user.dir")+"/src/main/resources/test.properties"); 
-        FileReader reader=new FileReader(System.getProperty("user.dir")+"/common/test.properties");
+        //FileReader reader=new FileReader(System.getProperty("user.dir")+"/src/main/resources/test1.properties"); 
+       FileReader reader=new FileReader("test1.properties");
+       //InputStream reader = App.class.getClassLoader().getResourceAsStream("test1.properties");	
+	   //InputStream reader = App.class.getResourceAsStream("test1.properties");
         
         Properties p=new Properties();  
         p.load(reader);  

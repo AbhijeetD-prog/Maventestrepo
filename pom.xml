@@ -88,9 +88,9 @@
      <resources>
       <resource>
         <directory>src/main/resources</directory>
-        <excludes>
+      	<!--<excludes>
           <exclude>**/*.*</exclude>          
-        </excludes>
+        </excludes>-->
       </resource>
     </resources>   
   </build>
